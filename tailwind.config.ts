@@ -58,6 +58,14 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-tab": "var(--gradient-tab)",
+        "gradient-tab-active": "var(--gradient-tab-active)",
+      },
+      transitionTimingFunction: {
+        "smooth": "var(--transition-smooth)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
